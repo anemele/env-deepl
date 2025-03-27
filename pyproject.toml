@@ -1,0 +1,15 @@
+[project]
+name = "env-deepl"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "insightface>=0.7.3",
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.4",
+    "onnxruntime>=1.21.0",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.1.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
